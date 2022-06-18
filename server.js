@@ -14,7 +14,7 @@ app.use('/', indexRouter)
 const port = process.env.port || 8080
 
 
-// Server only start whene db is connected to server
+// The Server only starts when DB is connected to the server
 const start = async function(){
     try{
         await connectDB(process.env.DATABASE_URL)
@@ -26,6 +26,6 @@ const start = async function(){
 
 start()
 
-// End==> Server only start whene db is connected to server
+// End==> The Server only starts when DB is connected to the server
 
 
