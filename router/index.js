@@ -6,7 +6,7 @@ const {
     indexPut,
     indexPatch,
     indexDelete
-} = require('../controler/index')
+} = require('../controler')
 
 router.get('/', indexGet)
 

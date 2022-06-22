@@ -7,6 +7,7 @@ const connectDB = require('./db/connection')
 
 
 app.use(bodyParser.json())
+// app.use(express.json())
 
 app.use('/', indexRouter)
 
