@@ -1,7 +1,7 @@
+const dotenv = require('dotenv').config()
 const express = require('express')
-const bodyParser = require('body-parser')
-require('dotenv').config()
 const app = express()
+const bodyParser = require('body-parser')
 const indexRouter = require('./router/index')
 const connectDB = require('./db/connection')
 
